@@ -77,6 +77,7 @@ pids
 
 # Claude
 .claude
+context/
 
 # ==========================================
 # Build & Output Directories
