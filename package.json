@@ -1,0 +1,30 @@
+{
+  "name": "coin-cli",
+  "version": "1.0.0",
+  "description": "Show the top cryptocurrencies by market cap in a terminal table",
+  "bin": {
+    "coin-cli": "index.js"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js",
+    "api.js",
+    "format.js",
+    "table.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "crypto",
+    "cryptocurrency",
+    "coingecko"
+  ],
+  "license": "MIT",
+  "private": true
+}
